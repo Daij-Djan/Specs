@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "iheartquotes.com"
   s.license      = 'MIT'
   s.author       = { "Dominik Pich" => "Dominik@pich.info" }
-  s.source       = { :git => "https://github.com/Daij-Djan/DDQuoteService.git", tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/Daij-Djan/DDQuoteService.git", :tag => "0.1.0" }
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
   s.source_files = 'DDQuoteService', 'DDQuoteService/**/*.{h,m}'
